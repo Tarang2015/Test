@@ -10,6 +10,7 @@ public class Employee {
    private int sal;
    private int count;
    private String eamil;
+   private String address;
 
     @Override
     public String toString() {
