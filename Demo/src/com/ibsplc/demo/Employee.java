@@ -7,6 +7,7 @@ public class Employee {
    private Integer empId;
    private String name;
    private int age;
+   private int sal;
 
     @Override
     public String toString() {
