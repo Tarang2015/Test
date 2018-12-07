@@ -10,7 +10,40 @@ public class Employee {
    private int sal;
    private int count;
    private String eamil;
-   private String address;
+
+    public int getSal() {
+        return sal;
+    }
+
+    public void setSal(int sal) {
+        this.sal = sal;
+    }
+
+    public int getCount() {
+        return count;
+    }
+
+    public void setCount(int count) {
+        this.count = count;
+    }
+
+    public String getEamil() {
+        return eamil;
+    }
+
+    public void setEamil(String eamil) {
+        this.eamil = eamil;
+    }
+
+    public String getAddress() {
+        return address;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
+    }
+
+    private String address;
 
     @Override
     public String toString() {
