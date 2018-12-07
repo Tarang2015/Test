@@ -8,6 +8,7 @@ public class Employee {
    private String name;
    private int age;
    private int sal;
+   private int count;
 
     @Override
     public String toString() {
