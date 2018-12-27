@@ -10,7 +10,7 @@ public class BinarySearch {
         int h=arr.length-1;
 
         int key = 50;
-while(l<=h) {
+        while(l<=h) {
     int mid=(l+h)/2;
     if (arr[mid] == key) {
         System.out.println("element " + key + "is found at index " + mid);
