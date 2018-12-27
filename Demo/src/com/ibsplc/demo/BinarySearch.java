@@ -22,6 +22,7 @@ public class BinarySearch {
     }
 }
 if(l>h){
+    System.out.println();
     System.out.println("element " + key + "not found ");
 }
     }
