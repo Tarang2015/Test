@@ -5,6 +5,8 @@ package com.ibsplc.demo;
  */
 public class BinarySearch {
     public static void main(String args[]){
+
+
         int arr[]={4,7,10,26,30,35,38,45,55,67};
         int l=0;
         int h=arr.length-1;
